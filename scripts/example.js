@@ -12,7 +12,7 @@
 
 module.exports = function(robot) {
 
-  // let annoyIntervalId, answer, enterReplies, leaveReplies, lulz;
+  // // let annoyIntervalId, answer, enterReplies, leaveReplies, lulz;
   // robot.hear(/badger/i, function(res) {
   //   return res.send("Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS");
   // });
@@ -27,9 +27,9 @@ module.exports = function(robot) {
   //   }
   // });
 
-  // robot.hear(/I like pie/i, function(res) {
-  //   return res.emote("makes a freshly baked pie");
-  // });
+  robot.hear(/I like pie/i, function(res) {
+    return res.emote("makes a freshly baked pie");
+  });
 
   // lulz = ['lol', 'rofl', 'lmao'];
   // robot.respond(/lulz/i, function(res) {
