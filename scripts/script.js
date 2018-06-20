@@ -13,7 +13,9 @@
 module.exports = function(robot) {
   //  YOUR CODE HERE
 
-
+  robot.hear(/this place is closed/i, function(res) {
+    return res.emote("did you mark it as closed?");
+  });
 
 
   //  Example
