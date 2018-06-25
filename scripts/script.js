@@ -22,11 +22,11 @@ module.exports = function(robot) {
   });
 
   robot.hear(/old/i, function(res) { 
-    retuen res.emote("if you are 30... don't worry... you are 30... flirty... AND thriving");
+    return res.emote("if you are 30... don't worry... you are 30... flirty... AND thriving");
   });
 
   robot.hear(/beatiful/i, function(res) { 
-    retuen res.emote("did you know that according to the movie donnie darko... cellar door is the most beautiful combination of words in the english language?");
+    return res.emote("did you know that according to the movie donnie darko... cellar door is the most beautiful combination of words in the english language?");
   });
 
 /************************************
