@@ -13,8 +13,8 @@
 module.exports = function(robot) {
   //  YOUR CODE HERE
 
-  robot.hear(/this place is closed/i, function(res) {
-    return res.emote("did you mark it as closed?");
+  robot.hear(/scared/i, function(res) {
+    return res.emote("i understand you're freaking freaked out right now. but, there is nothing wrong with fear; the only mistake is to let it stop you in your tracks.");
   });
 
 
