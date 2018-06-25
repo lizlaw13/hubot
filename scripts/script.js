@@ -12,16 +12,22 @@
 
 module.exports = function(robot) {
   //  YOUR CODE HERE
-const amazing = ["https://giphy.com/gifs/l3JDFJncJHteKIYzm/html5"]
 
   robot.hear(/scared/i, function(res) {
     return res.emote("i understand you're freaking freaked out right now. but, there is nothing wrong with fear; the only mistake is to let it stop you in your tracks.");
   });
 
-   robot.hear(/happy/i, function(msg) {
-     return msg.send(amazing);
-   });
-}
+  robot.hear(/insecure/i, function(res) {
+    return res.emote("you is kind. you is smart. you is important- the help");
+  });
+
+  robot.hear(/old/i, function(res) { 
+    retuen res.emote("if you are 30... don't worry... you are 30... flirty... AND thriving.- 13 going on 30")
+  })
+
+  robot.hear(/beatiful/i, function(res) { 
+    retuen res.emote("did you know that according to the movie donnie darko... cellar door is the most beautiful combination of words in the english language?")
+  })
 
 /************************************
 
