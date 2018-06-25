@@ -18,10 +18,10 @@ const amazing = ["https://giphy.com/gifs/l3JDFJncJHteKIYzm/html5";]
     return res.emote("i understand you're freaking freaked out right now. but, there is nothing wrong with fear; the only mistake is to let it stop you in your tracks.");
   });
 
-   robot.hear(/happy/i, function(msg) {
-     return msg.send(amazing);
-   });
-}
+//    robot.hear(/happy/i, function(msg) {
+//      return msg.send(amazing);
+//    });
+// }
 
 /************************************
 
