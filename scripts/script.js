@@ -12,16 +12,15 @@
 
 module.exports = function(robot) {
   //  YOUR CODE HERE
+const amazing = ["https://giphy.com/gifs/l3JDFJncJHteKIYzm/html5";]
 
   robot.hear(/scared/i, function(res) {
     return res.emote("i understand you're freaking freaked out right now. but, there is nothing wrong with fear; the only mistake is to let it stop you in your tracks.");
   });
 
-
-  //  Example
-  //  robot.hear(/javascript/i, function(msg) {
-  //    return msg.send("I love writing code!");
-  //  });
+   robot.hear(/happy/i, function(msg) {
+     return msg.send(amazing);
+   });
 }
 
 /************************************
