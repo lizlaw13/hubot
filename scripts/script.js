@@ -22,7 +22,7 @@ module.exports = function(robot) {
   });
 
   robot.hear(/old/i, function(res) { 
-    retuen res.emote("if you are 30... don't worry... you are 30... flirty... AND thriving - 13 going on 30");
+    retuen res.emote("if you are 30... don't worry... you are 30... flirty... AND thriving");
   })
 
   robot.hear(/beatiful/i, function(res) { 
