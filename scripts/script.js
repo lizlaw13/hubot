@@ -51,5 +51,4 @@ const squirrels = ["http://img.skitch.com/20100714-d6q52xajfh4cimxr3888yb77ru.jp
   If a user enters 'ship it' we return a random squirrel, which is popular for symbolizing shipping something with engineers */
   return robot.hear(/ship it/i, function(msg) {
     return msg.send(msg.random(squirrels));
-  });
-};
+  }); 
