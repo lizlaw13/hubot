@@ -13,9 +13,8 @@
 module.exports = function(robot) {
   //  YOUR CODE HERE
 
-  const scared = ['never let the fear of striking out keep you from playing the game- a cinderella story', "i understand you're freaking freaked out right now. but, there is nothing wrong with fear; the only mistake is to let it stop you in your tracks."]
-  return robot.hear(/scared/i, function(msg) {
-    return meg.send(msg.random(scared));
+   robot.hear(/scared/i, function(res) {
+    return res.emote('never let the fear of striking out keep you from playing the game- a cinderella story');
   });
 
    robot.hear(/insecure/i, function(res) {
